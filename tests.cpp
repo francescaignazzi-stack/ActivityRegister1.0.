@@ -1,8 +1,9 @@
 //
 // Created by fra20 on 01/09/2025.
 //
-#define CATCH_CONFIG_MAIN
+
 #include "libs/catch2/catch_amalgamated.hpp"
+
 #include "Activity.h"
 #include "Register.h"
 #include "TimeFormat.h"
