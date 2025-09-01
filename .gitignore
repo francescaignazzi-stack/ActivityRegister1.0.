@@ -1,0 +1,20 @@
+# Cartelle di build generate da CLion/CMake
+/build/
+
+# File di configurazione di CLion
+/.idea/
+libs/.idea/
+
+# File oggetto e binari
+*.o
+*.exe
+*.out
+*.obj
+
+# File temporanei dell'editor
+*.swp
+*.tmp
+
+# Evita di includere il .cpp di Catch2 se vuoi compilare sempre la tua copia
+# Puoi lasciare .hpp perché serve per l'unit testing
+libs/catch2/catch_amalgamated.cpp
